@@ -31,4 +31,4 @@ clipboardy.writeSync(generatedPassword);
 
 //Ouput generate password
 log(chalk.blue('The generated password: ')+ chalk.bold(generatedPassword));
-log(chalk.yellow('Password copied to clipboard'));
+log(chalk.yellowBright('Password copied to clipboard'));
